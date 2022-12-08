@@ -40,3 +40,6 @@ def recorre_laberinto(laberinto):
         else:
             movimientos.append('No hay salida')
     return movimientos
+
+# Mostrar Solución
+print('Solución: ', recorre_laberinto(lab))
