@@ -15,3 +15,12 @@ lab = laberinto(5, limite)
 
 for i in lab:
     print(''.join(i))
+
+def recorre_laberinto(laberinto):
+    # Fila y columnas iniciales
+    fila = 0
+    columna = 0
+    # Dimensiones del laberinto
+    n = len(laberinto)
+    # Lista de movimientos
+    movimientos = ['Abajo']
